@@ -1,12 +1,42 @@
-## context
-300000 appointments scheduled in the public health system of the city of victoria in brazil. the public health system wants to know why 30%of patients missed their appointments. there would also like to build or predict which patients will miss their appointments.
+<div class='alert alert-info'>
+<h1>under construction
+</h1>
+</div>
 
-## data
-the data is relatively poor. it only consists of minimal demographic information such as age, gender, neighborhood, and whether the person is receiving a financial assistance. the data shows basic health information, such as whether or not the patient has any serious conditions. 
-the data does not describe any information such as clinic location, or reason for visit, cost of visit, many factors which could reasonably affect whether someone shows up. to be realistic, we conceded that this analysis assumes that none of those factors matter.
+# Understanding No-shows
+The goal of this project is to understand why patients miss their appointments.
 
-
-## goals
+## goal
+100000 appointments scheduled in the public health system of the city of victoria in brazil. the public health system wants to know why 30% of patients missed their appointments. They would also like to  predict which patients will miss their appointments.
 1. explain why 30% of patients miss their appointments.
 
 2. create a model that predicts whether a patient is going to miss his appointment.
+
+
+
+## parameters
+
+   
+## solution
+
+
+## project layout
+0. [data dictionary](data_dictionary.ipynb)
+1. [brainstorm solutions by feature](feature_brainstorm.ipynb)
+2. [Clean the data](clean.ipynb)
+3. [exploratory analysis by feature](eda.ipynb)
+4. [predict no-shows with logistic regression](logistic_regression.ipynb)
+5. [predict no-shows with random forests](random_forest.ipynb)
+
+## secondary explorations 
+
+
+## installation guide
+```
+git clone https://github.com/ncernek/medical_no_shows.git
+cd medical_no_shows/
+pip install -r requirements.txt
+```
+
+## source
+This data comes from [kaggle.com](https://www.kaggle.com/joniarroba/noshowappointments).
